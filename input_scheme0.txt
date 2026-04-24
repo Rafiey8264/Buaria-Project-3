@@ -1,0 +1,15 @@
+# Project 3 Input File
+# Freestream conditions
+rho0  4.0
+u0    1.0
+v0    0.0
+M0    2.0
+gamma 1.4
+# Numerical parameters
+CFL       0.8
+maxiter   200000
+tol       1.0e-6
+# MUSCL scheme: 0 = first order, 1 = second order, 2 = Chakravarthy-Osher
+muscl_scheme  0
+# Grid file
+gridfile  grid_fine.txt
